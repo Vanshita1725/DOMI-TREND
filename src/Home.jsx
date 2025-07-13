@@ -39,7 +39,7 @@ export default function Home() {
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6">
           <div className="md:w-1/2 w-full text-center md:text-left mt-6 md:mt-0">
             <h1 className="text-4xl !md:text-5xl !font-bold w-30 !font-[popins] text-[#223047] mb-6 ">
-              Everyday Luxury. <br /> Redefined.
+             
             </h1>
             <button className="bg-[#b85c2b] hover:bg-[#a04a1e] text-white px-8 py-3 rounded font-medium text-lg transition">
               Shop Now
