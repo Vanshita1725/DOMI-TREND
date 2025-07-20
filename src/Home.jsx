@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from "./assets/IMG_4788.PNG"; // <-- Make sure this is the correct path
+import logoImg from "./assets/DTlogo.svg"
 const collections = [
   {
     img: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80",
@@ -35,11 +35,11 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-white py-10">
+      <section className="bg-gray-600 py-10">
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6">
           <div className="md:w-1/2 w-full text-center md:text-left mt-6 md:mt-0">
             <h1 className="text-4xl !md:text-5xl !font-bold w-30 !font-[popins] text-[#223047] mb-6 ">
-              Everyday Luxury. <br /> Redefined.
+              Everyday Luxury.Redefined.
             </h1>
             <button className="bg-[#b85c2b] hover:bg-[#a04a1e] text-white px-8 py-3 rounded font-medium text-lg transition">
               Shop Now
